@@ -2,6 +2,7 @@
   "domain": "govee_test",
   "name": "Govee lights local test",
   "codeowners": ["@Galorhallen"],
+  "version": "1.2.3",
   "config_flow": true,
   "dependencies": ["network"],
   "documentation": "https://www.home-assistant.io/integrations/govee_light_local",
