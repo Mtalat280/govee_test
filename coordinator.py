@@ -3,7 +3,8 @@
 from collections.abc import Callable
 import logging
 
-from govee_local_api import GoveeController, GoveeDevice
+from gove_test.src.govee_local_api.controller import GoveeController
+from gove_test.src.govee_local_api.device import GoveeDevice
 
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers.update_coordinator import DataUpdateCoordinator

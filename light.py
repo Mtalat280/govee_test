@@ -5,7 +5,8 @@ from __future__ import annotations
 import logging
 from typing import Any
 
-from govee_local_api import GoveeDevice, GoveeLightCapability
+from gove_test.src.govee_local_api.device import GoveeDevice 
+from gove_test.src.govee_local_api.light_capabilities import GoveeLightCapability
 
 from homeassistant.components.light import (
     ATTR_BRIGHTNESS,

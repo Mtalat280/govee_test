@@ -5,7 +5,7 @@ from __future__ import annotations
 import asyncio
 import logging
 
-from govee_local_api import GoveeController
+from gove_test.src.govee_local_api.controller import GoveeController
 
 from homeassistant.components import network
 from homeassistant.core import HomeAssistant
