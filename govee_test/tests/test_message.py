@@ -1,6 +1,6 @@
 from __future__ import absolute_import
 
-from gove_test.src.message import *
+from govee_test.src.message import *
 
 
 def test_scan_message():

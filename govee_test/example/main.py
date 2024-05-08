@@ -1,6 +1,6 @@
 import asyncio
 
-from gove_test.src import GoveeController, GoveeDevice
+from govee_test.src import GoveeController, GoveeDevice
 
 
 def update_device_callback(device: GoveeDevice):
